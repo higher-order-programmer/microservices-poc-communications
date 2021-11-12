@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSM.POCs.Communication.MessagePack.PriceAPI", "JSM.POCs.Communication.MessagePack.PriceAPI\JSM.POCs.Communication.MessagePack.PriceAPI.csproj", "{5ACF4FE6-A146-4B1F-8C58-C44BA834E1A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSM.POCs.Communication.MessagePack.PriceOperations", "JSM.POCs.Communication.MessagePack.PriceOperations\JSM.POCs.Communication.MessagePack.PriceOperations.csproj", "{4F18E9A0-0268-4D11-A6B1-91D1D4C41F42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSM.POCs.Communication.MessagePack.Price.Contracts", "JSM.POCs.Communication.MessagePack.Prices.Contracts\JSM.POCs.Communication.MessagePack.Price.Contracts.csproj", "{DDFFCA5A-7F7A-4E0B-9984-31591EA89150}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSM.POCs.Communication.REST.PriceAPI", "JSM.POCs.Communication.REST.PriceAPI\JSM.POCs.Communication.REST.PriceAPI.csproj", "{6C7E53AC-06EB-4422-BAAD-E0C3A4CF73FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSM.POCs.Communication.REST.PriceOperations", "JSM.POCs.Communication.REST.PriceOperations\JSM.POCs.Communication.REST.PriceOperations.csproj", "{1BBE227A-51EF-4408-AAED-1EB44A14AB51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSM.POCs.Communication.Benchmarks", "JSM.POCs.Communication.Benchmarks\JSM.POCs.Communication.Benchmarks.csproj", "{15EBF282-8265-49EB-9DE8-2A603E44F926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSM.POCs.Communication.Grpc.PriceOperations", "JSM.POCs.Communication.Grpc.PriceOperations\JSM.POCs.Communication.Grpc.PriceOperations.csproj", "{006E9766-96C9-4071-B760-14969E0108FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSM.POCs.Communication.Grpc.PricesService", "JSM.POCs.Communication.Grpc.PricesService\JSM.POCs.Communication.Grpc.PricesService.csproj", "{00A140DB-96FE-4117-85FC-901B4E88D297}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ACF4FE6-A146-4B1F-8C58-C44BA834E1A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ACF4FE6-A146-4B1F-8C58-C44BA834E1A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ACF4FE6-A146-4B1F-8C58-C44BA834E1A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ACF4FE6-A146-4B1F-8C58-C44BA834E1A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F18E9A0-0268-4D11-A6B1-91D1D4C41F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F18E9A0-0268-4D11-A6B1-91D1D4C41F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F18E9A0-0268-4D11-A6B1-91D1D4C41F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F18E9A0-0268-4D11-A6B1-91D1D4C41F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDFFCA5A-7F7A-4E0B-9984-31591EA89150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDFFCA5A-7F7A-4E0B-9984-31591EA89150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDFFCA5A-7F7A-4E0B-9984-31591EA89150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDFFCA5A-7F7A-4E0B-9984-31591EA89150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C7E53AC-06EB-4422-BAAD-E0C3A4CF73FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C7E53AC-06EB-4422-BAAD-E0C3A4CF73FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C7E53AC-06EB-4422-BAAD-E0C3A4CF73FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C7E53AC-06EB-4422-BAAD-E0C3A4CF73FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BBE227A-51EF-4408-AAED-1EB44A14AB51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BBE227A-51EF-4408-AAED-1EB44A14AB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BBE227A-51EF-4408-AAED-1EB44A14AB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BBE227A-51EF-4408-AAED-1EB44A14AB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15EBF282-8265-49EB-9DE8-2A603E44F926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15EBF282-8265-49EB-9DE8-2A603E44F926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15EBF282-8265-49EB-9DE8-2A603E44F926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15EBF282-8265-49EB-9DE8-2A603E44F926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006E9766-96C9-4071-B760-14969E0108FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006E9766-96C9-4071-B760-14969E0108FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006E9766-96C9-4071-B760-14969E0108FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006E9766-96C9-4071-B760-14969E0108FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00A140DB-96FE-4117-85FC-901B4E88D297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A140DB-96FE-4117-85FC-901B4E88D297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A140DB-96FE-4117-85FC-901B4E88D297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A140DB-96FE-4117-85FC-901B4E88D297}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFD517F2-529B-4734-A435-F544E022B092}
+	EndGlobalSection
+EndGlobal

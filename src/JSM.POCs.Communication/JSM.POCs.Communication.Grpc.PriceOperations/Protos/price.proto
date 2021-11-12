@@ -1,0 +1,50 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+option csharp_namespace = "JSM.POCs.Communication.Grpc.PricesService.Protos";
+
+package price;
+
+// The pricing service definition.
+service PriceProtoService
+{
+  rpc GetAll (Empty) returns (PriceResponse);
+  rpc Insert (PriceModel) returns (Empty);
+}
+
+message PriceResponse
+{
+  repeated PriceModel Prices = 1;
+}
+
+message PriceModel
+{
+	string OrderId = 1;
+	string ClientIssuer = 2;
+	string CustomerCode = 3;
+	string IssuerName = 4;
+	string CenterCode = 5;
+	string Incoterm = 6;
+	string Sector = 7;
+	string PaymentForm = 8;
+	string OrganizationCode = 9;
+	string DistributionChannel = 10;
+	repeated ProductModel products = 11;
+	string CodePaymentTerm = 12;
+	string OrderType = 13;
+	google.protobuf.Timestamp ScheduleDate = 14;
+	string PostalCode = 15;
+}
+
+message ProductModel
+{
+	string id = 1;
+	string name = 2;
+	string model = 3;
+	string brand = 4;
+}
+
+message Empty
+{
+}
